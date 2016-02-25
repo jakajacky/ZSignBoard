@@ -1,0 +1,297 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C373F6C41C7F067900FCD1AD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C373F6C31C7F067900FCD1AD /* AppDelegate.swift */; };
+		C373F6C61C7F067900FCD1AD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C373F6C51C7F067900FCD1AD /* ViewController.swift */; };
+		C373F6C91C7F067900FCD1AD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C373F6C71C7F067900FCD1AD /* Main.storyboard */; };
+		C373F6CB1C7F067900FCD1AD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C373F6CA1C7F067900FCD1AD /* Assets.xcassets */; };
+		C373F6CE1C7F067900FCD1AD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C373F6CC1C7F067900FCD1AD /* LaunchScreen.storyboard */; };
+		C373F6DA1C7F0D7400FCD1AD /* ZSignBoardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C373F6D91C7F0D7400FCD1AD /* ZSignBoardView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C373F6C01C7F067900FCD1AD /* ZSignBoard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZSignBoard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C373F6C31C7F067900FCD1AD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C373F6C51C7F067900FCD1AD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C373F6C81C7F067900FCD1AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C373F6CA1C7F067900FCD1AD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C373F6CD1C7F067900FCD1AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C373F6CF1C7F067900FCD1AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C373F6D91C7F0D7400FCD1AD /* ZSignBoardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZSignBoardView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C373F6BD1C7F067900FCD1AD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C373F6B71C7F067900FCD1AD = {
+			isa = PBXGroup;
+			children = (
+				C373F6C21C7F067900FCD1AD /* ZSignBoard */,
+				C373F6C11C7F067900FCD1AD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C373F6C11C7F067900FCD1AD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C373F6C01C7F067900FCD1AD /* ZSignBoard.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C373F6C21C7F067900FCD1AD /* ZSignBoard */ = {
+			isa = PBXGroup;
+			children = (
+				C373F6C31C7F067900FCD1AD /* AppDelegate.swift */,
+				C373F6C51C7F067900FCD1AD /* ViewController.swift */,
+				C373F6D91C7F0D7400FCD1AD /* ZSignBoardView.swift */,
+				C373F6C71C7F067900FCD1AD /* Main.storyboard */,
+				C373F6CA1C7F067900FCD1AD /* Assets.xcassets */,
+				C373F6CC1C7F067900FCD1AD /* LaunchScreen.storyboard */,
+				C373F6CF1C7F067900FCD1AD /* Info.plist */,
+			);
+			path = ZSignBoard;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C373F6BF1C7F067900FCD1AD /* ZSignBoard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C373F6D21C7F067900FCD1AD /* Build configuration list for PBXNativeTarget "ZSignBoard" */;
+			buildPhases = (
+				C373F6BC1C7F067900FCD1AD /* Sources */,
+				C373F6BD1C7F067900FCD1AD /* Frameworks */,
+				C373F6BE1C7F067900FCD1AD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZSignBoard;
+			productName = ZSignBoard;
+			productReference = C373F6C01C7F067900FCD1AD /* ZSignBoard.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C373F6B81C7F067900FCD1AD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Xiaoqiang Zhang";
+				TargetAttributes = {
+					C373F6BF1C7F067900FCD1AD = {
+						CreatedOnToolsVersion = 7.1;
+					};
+				};
+			};
+			buildConfigurationList = C373F6BB1C7F067900FCD1AD /* Build configuration list for PBXProject "ZSignBoard" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C373F6B71C7F067900FCD1AD;
+			productRefGroup = C373F6C11C7F067900FCD1AD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C373F6BF1C7F067900FCD1AD /* ZSignBoard */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C373F6BE1C7F067900FCD1AD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C373F6CE1C7F067900FCD1AD /* LaunchScreen.storyboard in Resources */,
+				C373F6CB1C7F067900FCD1AD /* Assets.xcassets in Resources */,
+				C373F6C91C7F067900FCD1AD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C373F6BC1C7F067900FCD1AD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C373F6DA1C7F0D7400FCD1AD /* ZSignBoardView.swift in Sources */,
+				C373F6C61C7F067900FCD1AD /* ViewController.swift in Sources */,
+				C373F6C41C7F067900FCD1AD /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C373F6C71C7F067900FCD1AD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C373F6C81C7F067900FCD1AD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C373F6CC1C7F067900FCD1AD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C373F6CD1C7F067900FCD1AD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C373F6D01C7F067900FCD1AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C373F6D11C7F067900FCD1AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C373F6D31C7F067900FCD1AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZSignBoard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ideabinder.ZSignBoard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C373F6D41C7F067900FCD1AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZSignBoard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ideabinder.ZSignBoard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C373F6BB1C7F067900FCD1AD /* Build configuration list for PBXProject "ZSignBoard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C373F6D01C7F067900FCD1AD /* Debug */,
+				C373F6D11C7F067900FCD1AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C373F6D21C7F067900FCD1AD /* Build configuration list for PBXNativeTarget "ZSignBoard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C373F6D31C7F067900FCD1AD /* Debug */,
+				C373F6D41C7F067900FCD1AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C373F6B81C7F067900FCD1AD /* Project object */;
+}
